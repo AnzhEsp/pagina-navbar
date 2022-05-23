@@ -132,6 +132,7 @@ header {
     flex-direction: column;
     width: -moz-available;
     margin: 0 auto;
+    cursor: default;
   }
   .menu__item div {
     width: 100%;
@@ -139,9 +140,7 @@ header {
     justify-content: center;
     padding: 10px 0 10px 0;
   }
-  .menu__item div a {
-    width: 85%;
-  }
+
   .menu__item:hover > .sub-menu {
     height: 100px;
     transition: height 0.6s ease;
