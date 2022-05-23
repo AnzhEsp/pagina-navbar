@@ -137,6 +137,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 10px 0 10px 0;
   }
   .menu__item div a {
     width: 85%;
